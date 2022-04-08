@@ -27,4 +27,4 @@ jobs:
         run: yarn install
       - name: Publish update
         working-directory: apps/expo
-        run: eas update --branch my-branch-2 --message "my message 2"
+        run: eas update --branch my-branch-2 --message "my message 2" -p ios

@@ -5,7 +5,8 @@
     "version": "1.0.0",
     "sdkVersion": "44.0.0",
     "scheme": "solito-eas",
-    "platforms": ["ios", "android"],
+    "platforms": ["ios"],
+    "runtimeVersion": "1",
     "ios": {
       "bundleIdentifier": "com.nandorojo.solito-tester"
     },
